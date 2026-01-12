@@ -99,61 +99,22 @@ Față de tutorialele standard acest proiect aduce:
 ### Scheme electrice:
 
 ### Montaje:
+
 <table>
   <tr>
-    <td colspan="25%" align="center">
-      <a href="Montaje/excentic.jpeg">
-        <img src="/excentric.jpeg" width="100%">
-      </a>
-    </td>
+    <td width="25%"><a href="Montaje/sasiu.jpeg"><img src="Montaje/sasiu.jpeg" width="100%" alt="Sasiu"></a></td>
+    <td width="25%"><a href="Montaje/suport_motoare.jpeg"><img src="Montaje/suport_motoare.jpeg" width="100%" alt="Suport"></a></td>
+    <td width="25%"><a href="Montaje/excentic.jpeg"><img src="Montaje/excentic.jpeg" width="100%" alt="Excentric"></a></td>
+    <td width="25%"><a href="Montaje/ansamblu_motor1.jpeg"><img src="Montaje/ansamblu_motor1.jpeg" width="100%" alt="Motor1"></a></td>
   </tr>
-
   <tr>
-    <td width="25%" align="center">
-      <a href="Montaje/suport_motoare.jpeg">
-        <img src="/suport_motoare.jpeg" width="100%">
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="Montaje/ansamblu_motor1.jpeg">
-        <img src="/ansamblu_motor1.jpeg" width="100%">
-      </a>
-    </td>
-    <td width="25%" align="center">
-      <a href="Montaje/ansamblu_motor2.jpeg">
-        <img src="/ansamblu_motor2.jpeg" width="100%">
-      </a>
-    </td>
-    <td width="25%" align="center">
-       <a href="Montaje/sasiu.jpeg">
-        <img src="/sasiu.jpeg" width="100%">
-      </a>
-    </td>
-    <td width="25%" align="center">
-       <a href="Montaje/sasiu_si_driver_fluturi.jpeg">
-        <img src="/sasiu_si_driver_fluturi.jpeg" width="100%">
-      </a>
-    </td>
-    <td width="25%" align="center">
-       <a href="Montaje/sasiu_si_driver_fluturi2.jpeg">
-        <img src="/sasiu_si_driver_fluturi2.jpeg" width="100%">
-      </a>
-    </td>
-    <td width="25%" align="center">
-       <a href="Montaje/sasiu_si_fluturi.jpeg">
-        <img src="/sasiu_si_fluturi.jpeg" width="100%">
-      </a>
-    </td>
-    <td width="25%" align="center">
-       <a href="Montaje/fluture_mare.jpeg">
-        <img src="/fluture_mare.jpeg" width="100%">
-      </a>
-    </td>
-    <td width="25%" align="center">
-       <a href="Montaje/fluture_mic.jpeg">
-        <img src="/fluture_mic.jpeg" width="100%">
-      </a>
-    </td>
-    <td width="25%"></td> <td width="25%"></td>
+    <td width="25%"><a href="Montaje/ansamblu_motor2.jpeg"><img src="Montaje/ansamblu_motor2.jpeg" width="100%" alt="Motor2"></a></td>
+    <td width="25%"><a href="Montaje/sasiu_si_driver_fluturi.jpeg"><img src="Montaje/sasiu_si_driver_fluturi.jpeg" width="100%" alt="Driver1"></a></td>
+    <td width="25%"><a href="Montaje/sasiu_si_driver_fluturi2.jpeg"><img src="Montaje/sasiu_si_driver_fluturi2.jpeg" width="100%" alt="Driver2"></a></td>
+    <td width="25%"><a href="Montaje/sasiu_si_fluturi.jpeg"><img src="Montaje/sasiu_si_fluturi.jpeg" width="100%" alt="Ansamblu"></a></td>
   </tr>
+  <tr>
+    <td width="25%"><a href="Montaje/fluture_mare.jpeg"><img src="Montaje/fluture_mare.jpeg" width="100%" alt="Fluture mare"></a></td>
+    <td width="25%"><a href="Montaje/fluture_mic.jpeg"><img src="Montaje/fluture_mic.jpeg" width="100%" alt="Fluture mic"></a></td>
+    <td width="25%"></td> <td width="25%"></td> </tr>
 </table>
