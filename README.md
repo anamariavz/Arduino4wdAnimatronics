@@ -102,8 +102,8 @@ Proiectul necesită integrare de sisteme, nu doar replicare:
   <tr>
     <td width="50%"><a href="SchemeElectrice/schema_sasiu_si_fluturi.jpg"><img src="SchemeElectrice/schema_sasiu_si_fluturi.jpg" width="100%" alt="Schema sasiu si fluturi"></a></td>
     <td width="50%"><a href="SchemeElectrice/schema_telecomanda.jpg"><img src="SchemeElectrice/schema_telecomanda.jpg" width="100%" alt="Telecomanda"></a></td>
-    
   </tr>
+</table>
 
 ### Montaje:
 
