@@ -12,7 +12,7 @@ Proiectul demonstrează integrarea controlului electronic, a mecanismelor simple
 | Componentă | Cantitate | Rol |
 | :--- | :---: | :--- |
 | **ELECTRONICE** | | |
-| [Driver motor, tip TB6612FNG](https://www.emag.ro/driver-motor-tip-tb6612fng-ai0383-s299/pd/D6QW8GMBM/?ref=history-shopping_465680196_236249_1) | 1 | Controlul motoarelor de pe șasiu. [datasheet](https://cdn.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf) |
+| [Driver motor, tip TB6612FNG](https://www.emag.ro/driver-motor-tip-tb6612fng-ai0383-s299/pd/D6QW8GMBM/?ref=history-shopping_465680196_236249_1) | 1 | Controlul motoarelor de pe șasiu. [Datasheet](https://cdn.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf) |
 | [Șasiu masina 4wd](https://www.emag.ro/sasiu-dublu-masina-inteligenta-cu-4-roti-3874784221220/pd/DWKRZKYBM/?ref=history-shopping_465680196_157633_1) | 1 | Platforma de locomoție |
 | [Plăcă Arduino Nano](https://www.optimusdigital.ro/ro/compatibile-cu-arduino-nano/1686-placa-de-dezvoltare-compatibila-cu-arduino-nano-atmega328p-i-ch340.html?search_query=Placa+de+Dezvoltare+compatibila+cu+Arduino+Nano+%28ATmega328p+%C8%99i+CH340%29+++Cablu+30+cm&results=5) | 2 | <ul><li>Unitatea centrală de procesare a robotului</li><li>Unitatea de procesare a telecomenzii</li></ul> |
 | [Placă Arduino Uno](https://www.optimusdigital.ro/ro/placi-avr/4561-placa-de-dezvoltare-compatibila-cu-arduino-uno-r3-atmega328p-atmega16u2-cablu-50-cm.html?search_query=Placa+de+Dezvoltare+Compatibila+cu+Arduino+UNO+R3+%28ATmega328p+++ATmega16u2%29+++Cablu+50+cm&results=1) | 1 | Unitatea de procesare a efectelor audio și luminoase |
@@ -98,6 +98,13 @@ Proiectul necesită integrare de sisteme, nu doar replicare:
 ## 4. 📸 Galerie Foto & Video 🎥
 ### Scheme electrice:
 
+<table>
+  <tr>
+    <td width="50%"><a href="SchemeElectrice/schema_sasiu_si_fluturi.jpg"><img src="SchemeElectrice/schema_sasiu_si_fluturi.jpg" width="100%" alt="Schema sasiu si fluturi"></a></td>
+    <td width="50%"><a href="SchemeElectrice/schema_telecomanda.jpg"><img src="SchemeElectrice/schema_telecomanda.jpg" width="100%" alt="Telecomanda"></a></td>
+    
+  </tr>
+
 ### Montaje:
 
 <table>
@@ -118,5 +125,4 @@ Proiectul necesită integrare de sisteme, nu doar replicare:
     <td width="25%"><a href="Montaje/fluture_mic.jpeg"><img src="Montaje/fluture_mic.jpeg" width="100%" alt="Fluture mic"></a></td>
     <td width="25%"><a href="Montaje/telecomanda1.jpeg"><img src="Montaje/telecomanda1.jpeg" width="100%" alt="Sasiu"></a></td>
     <td width="25%"><a href="Montaje/telecomanda2.jpeg"><img src="Montaje/telecomanda2.jpeg" width="100%" alt="Sasiu"></a></td>
-    <td width="25%"></td> <td width="25%"></td> </tr>
 </table>
