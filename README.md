@@ -48,52 +48,52 @@ Proiectul demonstrează integrarea controlului electronic, a mecanismelor simple
 ### Sursa de inspirație
 
 Acest proiect este o adaptare bazată pe multiple resurse, combinând robotica cu elementele mecanice.</br>
-    * [Locomoție](https://www.instructables.com/DIY-Joystick-Controlled-Remote-Car-Using-Arduino/)</br>
-    * Fluturi [🦋](https://www.youtube.com/shorts/u5PJN3zsB4Q) [🦋](https://www.youtube.com/watch?v=BPetj9RztrI)</br>
+* [Locomoție](https://www.instructables.com/DIY-Joystick-Controlled-Remote-Car-Using-Arduino/)</br>
+* Fluturi [🦋](https://www.youtube.com/shorts/u5PJN3zsB4Q) [🦋](https://www.youtube.com/watch?v=BPetj9RztrI)</br>
 
 ### Ce aduce nou acest proiect?
 
 Față de tutorialele standard acest proiect aduce:
 
-    1. **Sistem animatronic integrat**: Adăugarea a două mecanisme excentric-bielă acționate independent, care simulează zborul fluturilor.</br>
-    2. **Arhitectura multi-driver**: Coordonarea simultana a unui driver TB6612FNG (pentru tracțiune) și a unui driver L293D (pentru elementele decorative).</br>
-    3. **Design estetic functional**: Construcția manuală a elementelor mecanice.</br>
+1. **Sistem animatronic integrat**: Adăugarea a două mecanisme excentric-bielă acționate independent, care simulează zborul fluturilor.</br>
+2. **Arhitectura multi-driver**: Coordonarea simultana a unui driver TB6612FNG (pentru tracțiune) și a unui driver L293D (pentru elementele decorative).</br>
+3. **Design estetic functional**: Construcția manuală a elementelor mecanice.</br>
 
 ### Analiza sitemului
 
 **Q1. Care este limita sistemului?**
 
-    Limita sistemului este definită de interfața fizică a celor două module:
+Limita sistemului este definită de interfața fizică a celor două module:
 
-        * **Intrare (Input):** interacțiune fizică a utilizatorului cu joystick-ul
-        * **Iesire (Output):** mișcarea roților pe suprafața de rulare, mișcarea aripilor fluturilor și semnalele audio-vizuale
+* **Intrare (Input):** interacțiune fizică a utilizatorului cu joystick-ul
+* **Iesire (Output):** mișcarea roților pe suprafața de rulare, mișcarea aripilor fluturilor și semnalele audio-vizuale
     
-    Notă: Robotul funcționeaza în buclă deschisa (open-loop) pentru deplasare, fără senzori de evitare a obstacolelor.
+*Notă: Robotul funcționeaza în buclă deschisa (open-loop) pentru deplasare, fără senzori de evitare a obstacolelor.*
 
 **Q2. Unde "locuiește" inteligența?**
 
-    Procesarea este distribuită între două noduri:
+Procesarea este distribuită între două noduri:
 
-        * **Transmițător:** Arduino Nano citește datele analogice, le procesează și le trimite prin pachete radio.
-        * **Receptor:** Arduino Nano decodează comenzile, calculează mixajul pentru direcția diferențială și gestionează PWM-ul pentru 6 motoare simultan.
+* **Transmițător:** Arduino Nano citește datele analogice, le procesează și le trimite prin pachete radio.
+* **Receptor:** Arduino Nano decodează comenzile, calculează mixajul pentru direcția diferențială și gestionează PWM-ul pentru 6 motoare simultan.
 
 **Q3. Care este cea mai dificilă problemă tehnică?**
 
 **Q4. Care este demo-ul minim funcțional?**
 
-    Sistemul trebuie să demonstreze:
+Sistemul trebuie să demonstreze:
 
-        * Conexiune radio stabilă.
-        * Controlul direcției (față/spate/stânga/dreapta) de la distanță.
-        * Activarea mecanismului de aripi la primirea comenzii specifice.
+* Conexiune radio stabilă.
+* Controlul direcției (față/spate/stânga/dreapta) de la distanță.
+* Activarea mecanismului de aripi la primirea comenzii specifice.
 
 **Q5. De ce nu este doar un simplu tutorial?**
 
-    Proiectul necesită integrare de sisteme, nu doar replicare:
+Proiectul necesită integrare de sisteme, nu doar replicare:
 
-        * Sincronizarea a două tipuri de drivere de motor.
-        * Proiectare mecanică pentru conversia mișcării (excentric-bielă).
-        * Managementul puterii pentru 3 nivele de tensiune (9V, 5V, 3.3V).
+* Sincronizarea a două tipuri de drivere de motor.
+* Proiectare mecanică pentru conversia mișcării (excentric-bielă).
+* Managementul puterii pentru 3 nivele de tensiune (9V, 5V, 3.3V).
 
 ## 4. 📸 Galerie Foto & Video 🎥
 ### Scheme electrice:
@@ -102,13 +102,13 @@ Față de tutorialele standard acest proiect aduce:
 
 <table>
   <tr>
-    <td width="25%"><a href="Montaje/sasiu.jpeg"><img src="Montaje/sasiu.jpeg" width="100%" alt="Sasiu"></a></td>
     <td width="25%"><a href="Montaje/suport_motoare.jpeg"><img src="Montaje/suport_motoare.jpeg" width="100%" alt="Suport"></a></td>
-    <td width="25%"><a href="Montaje/excentic.jpeg"><img src="Montaje/excentic.jpeg" width="100%" alt="Excentric"></a></td>
+    <td width="25%"><a href="Montaje/excentric.jpeg"><img src="Montaje/excentric.jpeg" width="100%" alt="Excentric"></a></td>
     <td width="25%"><a href="Montaje/ansamblu_motor1.jpeg"><img src="Montaje/ansamblu_motor1.jpeg" width="100%" alt="Motor1"></a></td>
+    <td width="25%"><a href="Montaje/ansamblu_motor2.jpeg"><img src="Montaje/ansamblu_motor2.jpeg" width="100%" alt="Motor2"></a></td>
   </tr>
   <tr>
-    <td width="25%"><a href="Montaje/ansamblu_motor2.jpeg"><img src="Montaje/ansamblu_motor2.jpeg" width="100%" alt="Motor2"></a></td>
+    <td width="25%"><a href="Montaje/sasiu.jpeg"><img src="Montaje/sasiu.jpeg" width="100%" alt="Sasiu"></a></td>
     <td width="25%"><a href="Montaje/sasiu_si_driver_fluturi.jpeg"><img src="Montaje/sasiu_si_driver_fluturi.jpeg" width="100%" alt="Driver1"></a></td>
     <td width="25%"><a href="Montaje/sasiu_si_driver_fluturi2.jpeg"><img src="Montaje/sasiu_si_driver_fluturi2.jpeg" width="100%" alt="Driver2"></a></td>
     <td width="25%"><a href="Montaje/sasiu_si_fluturi.jpeg"><img src="Montaje/sasiu_si_fluturi.jpeg" width="100%" alt="Ansamblu"></a></td>
@@ -116,5 +116,7 @@ Față de tutorialele standard acest proiect aduce:
   <tr>
     <td width="25%"><a href="Montaje/fluture_mare.jpeg"><img src="Montaje/fluture_mare.jpeg" width="100%" alt="Fluture mare"></a></td>
     <td width="25%"><a href="Montaje/fluture_mic.jpeg"><img src="Montaje/fluture_mic.jpeg" width="100%" alt="Fluture mic"></a></td>
+    <td width="25%"><a href="Montaje/telecomanda1.jpeg"><img src="Montaje/telecomanda1.jpeg" width="100%" alt="Sasiu"></a></td>
+    <td width="25%"><a href="Montaje/telecomanda2.jpeg"><img src="Montaje/telecomanda2.jpeg" width="100%" alt="Sasiu"></a></td>
     <td width="25%"></td> <td width="25%"></td> </tr>
 </table>
