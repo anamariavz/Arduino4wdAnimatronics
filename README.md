@@ -79,6 +79,20 @@ Procesarea este distribuită între două noduri:
 
 **Q3. Care este cea mai dificilă problemă tehnică?**
 
+Cea mai mare provocare a fost proiectarea mecanismului pentru mișcarea aripilor, trecând prin mai multe iterații de design pentru a rezolva probleme de mecanică fină.
+
+1.  **Scripete:** Inițial, pentru a simula zborul fluturelui, am dorit suspendarea acestuia pe un scripete. Am abandonat ideea înainte de a începe implementarea din cauza riscului de încâlcire a firelor motorului și a oscilațiilor necontrolate cauzate de centrul de greutate variabil.
+2.  **Bielă-manivelă în carcasă:** Am încercat un sistem bielă-manivelă cu motorul și axul într-o cutie. Din cauza realizării manuale a axului, au apărut erori de centrare: tija lovea pereții carcasei și bloca mecanismul. Deblocarea ar fi necesitat o logică software complexă (rotație inversă la detecția blocajului), ineficientă în practică. 
+
+<table>
+  <tr>
+    <td width="50%"><a href="Montaje/carcasa_biela_manivela.jpeg"><img src="Montaje/carcasa_biela_manivela.jpeg" width="100%" alt="Carcasa biela-manivela"></a></td>
+    <td width="50%"><a href="Montaje/schita_carcasa_biela_manivela.jpeg"><img src="Montaje/schita_carcasa_biela_manivela.jpeg" width="100%" alt="Schita carcasa biela-manivela"></a></td>
+  </tr>
+</table>
+
+3.  **Soluția Finală (Excentric):** Am ales ideea de excentric-bielă fără carcasă restrictivă, care s-a dovedit a fi cea mai fiabilă și stabilă soluție, eliminând blocajele mecanice.
+
 **Q4. Care este demo-ul minim funcțional?**
 
 Sistemul trebuie să demonstreze:
