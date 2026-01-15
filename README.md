@@ -82,7 +82,7 @@ Procesarea este distribuită între două noduri:
 Cea mai mare provocare a fost proiectarea mecanismului pentru mișcarea aripilor, trecând prin mai multe iterații de design pentru a rezolva probleme de mecanică fină.
 
 1.  **Scripete:** Inițial, pentru a simula zborul fluturelui, am dorit suspendarea acestuia pe un scripete. Am abandonat ideea înainte de a începe implementarea din cauza riscului de încâlcire a firelor motorului și a oscilațiilor necontrolate cauzate de centrul de greutate variabil.
-2.  **Bielă-manivelă în carcasă:** Am încercat un sistem bielă-manivelă cu motorul și axul într-o cutie. Din cauza realizării manuale a axului, au apărut erori de centrare: tija lovea pereții carcasei și bloca mecanismul. Deblocarea ar fi necesitat o logică software complexă (rotație inversă la detecția blocajului), ineficientă în practică. 
+2.  **Bielă-manivelă în carcasă:** Am încercat realizarea unui sistem bielă-manivelă cu motorul și axul integrate într-o carcasă. Din cauza realizării manuale a axului, au apărut erori de centrare: tija lovea pereții carcasei și bloca mecanismul. Deblocarea ar fi necesitat o logică software complexă (rotație inversă la detecția blocajului), ineficientă în practică. 
 
 <table>
   <tr>
@@ -107,7 +107,7 @@ Proiectul necesită integrare de sisteme, nu doar replicare:
 
 * Sincronizarea a două tipuri de drivere de motor.
 * Proiectare mecanică pentru conversia mișcării (excentric-bielă).
-* Managementul puterii pentru 3 nivele de tensiune (9V, 5V, 3.3V).
+* Utilizarea mai multor surse de tensiune (9V, 5V, 3.3V), pentru o funcționare optimă.
 
 ## 4. 📸 Galerie Foto & Video 🎥
 ### Scheme electrice:
