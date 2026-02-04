@@ -198,21 +198,21 @@ Pentru a rula acest proiect, este necesară instalarea următoarelor biblioteci 
     <td width="25%"><a href="Montaje/telecomanda2.jpeg"><img src="Montaje/telecomanda2.jpeg" width="100%" alt="Sasiu"></a></td>
   </tr>
   <tr>
-    <td width="25%"><a href="Montaje/montaj_flori.jpeg"><img src="Montaje/montaj_flori.jpeg" width="100%" alt="Montaj flori"></a></td>
-    <td width="25%"><a href="Montaje/montaj_flori2.jpeg"><img src="Montaje/montaj_flori2.jpeg" width="100%" alt="Montaj flori"></a></td>
-    <td width="25%"><a href="Montaje/frunze_vedere_laterala.jpeg"><img src="Montaje/frunze_vedere_laterala.jpeg" width="100%" alt="Frunze"></a></td>
-    <td width="25%"><a href="Montaje/frunze_vedere_laterala2.jpeg"><img src="Montaje/frunze_vedere_laterala2.jpeg" width="100%" alt="Frunze"></a></td>
+    <td width="25%"><a href="Montaje/montaj_flori.jpg"><img src="Montaje/montaj_flori.jpg" width="100%" alt="Montaj flori"></a></td>
+    <td width="25%"><a href="Montaje/montaj_flori2.jpg"><img src="Montaje/montaj_flori2.jpg" width="100%" alt="Montaj flori"></a></td>
+    <td width="25%"><a href="Montaje/frunze_vedere_laterala.jpg"><img src="Montaje/frunze_vedere_laterala.jpg" width="100%" alt="Frunze"></a></td>
+    <td width="25%"><a href="Montaje/frunze_vedere_laterala2.jpg"><img src="Montaje/frunze_vedere_laterala2.jpg" width="100%" alt="Frunze"></a></td>
   </tr>
   <tr>
-    <td width="25%"><a href="Montaje/ansamblu_flori_frunze.jpeg"><img src="Montaje/ansamblu_flori_frunze.jpeg" width="100%" alt="Montaj flori si frunze"></a></td>
-    <td width="25%"><a href="Montaje/ansamblu_flori_frunze2.jpeg"><img src="Montaje/ansamblu_flori_frunze2.jpeg" width="100%" alt="Montaj flori si frunze"></a></td>
-    <td width="25%"><a href="Montaje/ansamblu_flori_frunze3.jpeg"><img src="Montaje/ansamblu_flori_frunze3.jpeg" width="100%" alt="Montaj flori si frunze"></a></td>
-    <td width="25%"><a href="Montaje/ansamblu_final1.jpeg"><img src="Montaje/ansamblu_final1.jpeg" width="100%" alt="Ansamblu"></a></td>
+    <td width="25%"><a href="Montaje/ansamblu_flori_frunze.jpg"><img src="Montaje/ansamblu_flori_frunze.jpg" width="100%" alt="Montaj flori si frunze"></a></td>
+    <td width="25%"><a href="Montaje/ansamblu_flori_frunze2.jpg"><img src="Montaje/ansamblu_flori_frunze2.jpg" width="100%" alt="Montaj flori si frunze"></a></td>
+    <td width="25%"><a href="Montaje/ansamblu_flori_frunze3.jpg"><img src="Montaje/ansamblu_flori_frunze3.jpg" width="100%" alt="Montaj flori si frunze"></a></td>
+    <td width="25%"><a href="Montaje/ansamblu_final1.jpg"><img src="Montaje/ansamblu_final1.jpg" width="100%" alt="Ansamblu"></a></td>
   </tr>
   <tr>
     <td colspan="4">
-      <a href="Montaje/ansamblu_final.jpeg">
-        <img src="Montaje/ansamblu_final.jpeg" width="100%" alt="Ansamblu final">
+      <a href="Montaje/ansamblu_final.jpg">
+        <img src="Montaje/ansamblu_final.jpg" width="100%" alt="Ansamblu final">
       </a>
     </td>
   </tr>
