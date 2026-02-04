@@ -217,3 +217,11 @@ Pentru a rula acest proiect, este necesară instalarea următoarelor biblioteci 
     </td>
   </tr>
 </table>
+
+### Demo: 
+[![](https://img.youtube.com/vi/RiYfry_dfLQ/0.jpg)](https://youtu.be/RiYfry_dfLQ)
+
+
+[**Cod Platforma**](Cod/platforma.ino)</br>
+[**Cod Telecomanda**](Cod/telecomanda.ino)</br>
+[**Cod Efecte**](Cod/efecte_luminoase_si_audio.ino)</br>
